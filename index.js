@@ -1,5 +1,11 @@
-function r(strings) {
-	var str = strings.raw[0];
+function r() {
+	var strings = arguments[0];
+	var values = Array.prototype.slice.call(arguments, 1);
+	
+	var str = str = strings.raw.reduce(function(prev, cur, idx) {
+		return prev + values[idx-1] + cur;
+	});
+	
 	
 	str = str.replace(/\r\n/g, '\n');
 	
