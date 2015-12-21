@@ -10,8 +10,7 @@ r`			remove
 			
 r`			remove
 				tabs
-					tabs`,
-					
+					tabs`
 		];
 		
 		var expected = [

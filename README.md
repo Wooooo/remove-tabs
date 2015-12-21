@@ -19,9 +19,11 @@ var a = `These
         
 console.log(a); // 'These\n\t\t\t\tare annoying!!!'
 ```
-So I use tagged function to remove them.
+So I use tagged function to remove them. <br/>
+It checks first line's tab number and removes other lines's tabs according to it.
 ```
 const r = require('remove-tabs');
+
 
 var a = 
 r`      Not
@@ -29,6 +31,3 @@ r`      Not
 
 console.log(a); // 'Not\nannoyed any more :)'
 ```
-
-# 
-RemoveTabs module checks first line's tab number and removes other lines's tabs according to it.
