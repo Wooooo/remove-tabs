@@ -15,9 +15,9 @@ npm install remove-tabs --save
 Added tabs are annoying when multi-line template strings.
 ```
 var a = `These
-        are annoying!!!`;
-        
-console.log(a); // 'These\n\t\t\t\tare annoying!!!'
+		are annoying!!!`;
+		
+console.log(a); // 'These\n\t\tare annoying!!!'
 ```
 So I use tagged function to remove them. <br/>
 It checks first line's tab number and removes other lines's tabs according to it.
@@ -26,8 +26,19 @@ const r = require('remove-tabs');
 
 
 var a = 
-r`      Not
-        annoyed any more :)`;
+r`		Not
+		annoyed any more :)`;
 
 console.log(a); // 'Not\nannoyed any more :)'
+```
+
+If you don't like leading tagged, this is also allowed.
+
+```
+const r = require('remove-tabs');
+
+var a = r`
+		Not
+		annoyed any more too! :)`;
+
 ```
