@@ -10,12 +10,16 @@ r`			remove
 			
 r`			remove
 				tabs
-					tabs`
+					tabs`,
+			r`
+			remove
+			tabs`
 		];
 		
 		var expected = [
 			'remove\ntabs',
-			'remove\n\ttabs\n\t\ttabs'
+			'remove\n\ttabs\n\t\ttabs',
+			'remove\ntabs'
 		];
 		
 		for(var i = 0 ; i < tests.length ; i++) {
