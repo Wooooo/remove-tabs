@@ -1,4 +1,9 @@
 # remove-tabs
+[![Build Status](https://travis-ci.org/Wooooo/remove-tabs.svg?branch=master)](https://travis-ci.org/Wooooo/remove-tabs)
+[![Npm Version](https://img.shields.io/npm/v/remove-tabs.svg)](https://npmjs.org/wooooo/remove-tabs)
+[![Node Version](https://img.shields.io/node/v/remove-tabs.svg)](https://npmjs.org/wooooo/remove-tabs)
+[![Npm License](https://img.shields.io/npm/l/remove-tabs.svg)](https://npmjs.org/wooooo/remove-tabs)
+
 Remove tabs which are added between multi-line template strings by using tagged
 
 # Install
