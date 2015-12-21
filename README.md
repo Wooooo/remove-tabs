@@ -32,7 +32,7 @@ r`		Not
 console.log(a); // 'Not\nannoyed any more :)'
 ```
 
-If you don't like leading tagged, this is also allowed.
+If you don't like leading tagged, top-tagged is also allowed.
 
 ```
 const r = require('remove-tabs');
@@ -40,5 +40,7 @@ const r = require('remove-tabs');
 var a = r`
 		Not
 		annoyed any more too! :)`;
+
+console.log(a); // 'Not\nannoyed any more too! :)'
 
 ```
