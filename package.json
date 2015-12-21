@@ -4,7 +4,7 @@
   "description": "Remove tabs which are added between multi-line template strings by using tagged",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
