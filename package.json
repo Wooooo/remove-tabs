@@ -1,6 +1,6 @@
 {
   "name": "remove-tabs",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Remove tabs which are added between multi-line template strings by using tagged",
   "main": "index.js",
   "scripts": {
