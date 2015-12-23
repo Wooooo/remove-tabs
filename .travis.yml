@@ -11,7 +11,7 @@ node_js:
 sudo: false
 
 addons:
-  - firefox: "43.0"
+  firefox: "43.0"
   
 before_install:
   - export DISPLAY=:99.0
