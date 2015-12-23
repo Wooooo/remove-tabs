@@ -12,7 +12,6 @@ sudo: false
 
 addons:
   - firefox: "43.0"
-  - chrome: "47.0"
   
 before_install:
   - export DISPLAY=:99.0
