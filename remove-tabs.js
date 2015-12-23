@@ -1,3 +1,9 @@
+/**
+ * @name remove-tabs
+ * @version v0.1.0
+ * @author Taewoo Kim xodn4195@gmail.com
+ * @license MIT
+ */
 function r() {
 	var strings = arguments[0];									// template strings
 	var values = Array.prototype.slice.call(arguments, 1);	// interpolation values 
