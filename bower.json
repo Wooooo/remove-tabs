@@ -1,0 +1,31 @@
+{
+  "name": "remove-tabs",
+  "version": "0.1.0",
+  "description": "Remove tabs which are added between multi-line template strings by using tagged",
+  "main": "remove-tabs.js",
+  "authors": [
+    "Taewoo Kim <xodn4195@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "string",
+    "template-string",
+    "tab",
+    "newline",
+    "es6"
+  ],
+  "homepage": "https://github.com/Wooooo/remove-tabs",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

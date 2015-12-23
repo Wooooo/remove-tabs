@@ -15,7 +15,7 @@ module.exports = function(config) {
 
         // list of files / patterns to load in the browser
         files: [
-            {pattern: 'index.js', included: false},
+            {pattern: 'remove-tabs.js', included: false},
             {pattern: 'test/amd/*Spec.js', included: false},
             
             'test/amd/test-main.js',

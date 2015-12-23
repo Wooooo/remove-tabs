@@ -15,7 +15,7 @@ module.exports = function(config) {
 
         // list of files / patterns to load in the browser
         files: [
-            './index.js',
+            './remove-tabs.js',
             
             'test/browser/**/*Spec.js'
         ],

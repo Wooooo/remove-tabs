@@ -17,7 +17,7 @@ require.config({
   baseUrl: '/base',
   
   paths: {
-    'r': 'index'
+    'r': 'remove-tabs'
   },
   
   // dynamically load all test files
