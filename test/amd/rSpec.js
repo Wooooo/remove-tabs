@@ -1,5 +1,4 @@
-var r = window.removeTabs;
-
+define(['r'], function(r){
 describe('RemoveTabs', function(){
 	it('should not have unnecessary tabs.', function(){
 		var tests = [
@@ -49,3 +48,4 @@ r`			${'remove'}
 		}
 	});
 })
+});
